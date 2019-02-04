@@ -1,0 +1,28 @@
+{
+	"name": "Bearify!",
+	"version": "1.0",
+	"description": "Replaces all the images on a webpage with pictures of bears!",
+	"manifest_version": 2,
+	"icons": {
+		"16": "images/bear_16.png",
+		"32": "images/bear_32.png",
+		"48": "images/bear_48.png",
+		"128": "images/bear_128.png"
+	},
+
+	"page_action": {
+		"default_icon": {
+			"16": "images/bear_16.png",
+			"32": "images/bear_32.png",
+			"48": "images/bear_48.png",
+			"128": "images/bear_128.png"
+		}
+	},
+
+	"permissions": ["activeTab", "declarativeContent"],
+
+	"background": {
+		"scripts": ["script.js"],
+		"persistent": false
+	}
+}
